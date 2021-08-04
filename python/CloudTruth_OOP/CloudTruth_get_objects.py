@@ -22,12 +22,7 @@ Returns specified organization object json
 import argparse
 import getpass
 import json
-import requests
 import CloudTruth_api
-
-# Disable SSL warnings
-from requests.packages.urllib3.exceptions import InsecureRequestWarning
-requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 
 def parse_args():
