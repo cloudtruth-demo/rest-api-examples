@@ -21,10 +21,6 @@ import getpass
 import json
 import requests
 
-# Disable SSL warnings
-# from requests.packages.urllib3.exceptions import InsecureRequestWarning
-# requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
-
 
 def parse_args():
     '''Parse command line arguments'''
