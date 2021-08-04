@@ -33,7 +33,7 @@ def parse_args():
 
     parser.add_argument('-t', '--token',
                         required=False,
-                        help="Specify the API Acces Token")
+                        help="Specify the API Token")
 
     parser.add_argument('-e', '--environments',
                         action='store_true',
