@@ -15,7 +15,7 @@ python CloudTruth_rest_methods.py --token YOUR_API_TOKEN --environment
 |  -t TOKEN, --token TOKEN | Specify the API Token           |
 |  -e, --environments      | Get environments                |
 
-## [CloudTruth_Base Class](https://github.com/cloudtruth-demo/rest-api-examples/tree/main/python/CloudTruth_OOP)
+## [CloudTruth Base Class](https://github.com/cloudtruth-demo/rest-api-examples/tree/main/python/CloudTruth_OOP)
 This is an example that uses a base class [CloudTruth_api.py](https://github.com/cloudtruth-demo/rest-api-examples/blob/main/python/CloudTruth_OOP/CloudTruth_api.py) for CloudTruth REST methods.
 
 [CloudTruth_get_objects.py](https://github.com/cloudtruth-demo/rest-api-examples/blob/main/python/CloudTruth_OOP/CloudTruth_get_objects.py) imports the Cloudtruth_api class and prompts the user for options that will invoke CloudTruth GET methods to list details of your organization.
